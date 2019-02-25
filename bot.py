@@ -21,5 +21,5 @@ api = tweepy.API(auth)
 
 if __name__ == '__main__':
     print("about to update status...")
-    api.update_status('Right now it is ' + str(datetime.datetime.now()))
+    api.update_status('This bot is setting using Heroku web to connect to Github. Right now the time is ' + str(datetime.datetime.now()))
  #   time.sleep(INTERVAL)

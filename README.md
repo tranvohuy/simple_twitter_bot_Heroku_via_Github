@@ -4,6 +4,6 @@ This bot is deployed via Github from Heroku website.
 * Go to https://dashboard.heroku.com/apps/ >> create new app >> type a new name >> in ```Settings```, choose ```Github``` instead of ```Heroku CLI```
 * You have to enter KEYs and VALUEs fromo Twitter Dev app into ```Config Vars``` in ```Settings```.
 
-* Deploy the master branch. 
+* Deploy the master branch. It will run ```bot.py``` once.
 
-* Go to ```Overview```>>```Configure Dynos```>> Turn ```woker`` ON, or set up a scheduler.
+* Go to ```Overview```>>```Configure Dynos```>> Turn ```woker``` ON, or set up a scheduler.

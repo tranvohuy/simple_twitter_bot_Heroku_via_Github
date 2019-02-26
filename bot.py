@@ -16,4 +16,4 @@ api = tweepy.API(auth)
 
 if __name__ == '__main__':
     print("about to update status...")
-    api.update_status('This bot is deployed via  Heroku dashboard connecting to Github. Right now the time is ' + str(datetime.datetime.now()))
+    api.update_status('This bot is deployed via Heroku dashboard connecting to Github. Right now the time is ' + str(datetime.datetime.now()))
